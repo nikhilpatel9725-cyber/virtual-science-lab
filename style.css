@@ -1,0 +1,21 @@
+body {
+  font-family: Arial;
+  background-color: #eef6ff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #0d47a1;
+}
+
+.button {
+  display: block;
+  background: #1565c0;
+  color: white;
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  text-decoration: none;
+  border-radius: 8px;
+}
