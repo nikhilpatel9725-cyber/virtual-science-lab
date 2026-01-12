@@ -1,21 +1,104 @@
+/* ===== Global Reset ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Body ===== */
 body {
-  font-family: Arial;
-  background-color: #eef6ff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(180deg, #eef6ff, #ffffff);
+  color: #333;
   text-align: center;
-  padding: 20px;
+  line-height: 1.6;
 }
 
-h1 {
-  color: #0d47a1;
+/* ===== Header ===== */
+.header {
+  padding: 40px 20px;
+  background: #0d47a1;
+  color: white;
 }
 
+.header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* ===== Main Container ===== */
+.container {
+  padding: 40px 20px;
+}
+
+/* ===== Intro Text ===== */
+.intro p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 1.05rem;
+}
+
+/* ===== Lab Buttons Section ===== */
+.labs {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* ===== Buttons ===== */
 .button {
   display: block;
   background: #1565c0;
   color: white;
   padding: 15px;
-  margin: 10px auto;
-  width: 80%;
+  margin: 15px auto;
+  width: 100%;
+  max-width: 420px;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 15px rgba(21, 101, 192, 0.25);
+}
+
+/* Hover Effect */
+.button:hover {
+  background: #0d47a1;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(13, 71, 161, 0.3);
+}
+
+/* ===== Visitors ===== */
+.visitors {
+  margin: 30px 0;
+  font-size: 0.9rem;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: #0d47a1;
+  color: white;
+  padding: 20px 10px;
+  font-size: 0.85rem;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .button {
+    font-size: 1rem;
+    padding: 14px;
+  }
 }
