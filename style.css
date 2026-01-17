@@ -157,3 +157,65 @@ body {
 .card a:hover {
   background: #0d47a1;
 }
+
+/* ===== Contact Section ===== */
+.contact {
+  background: #f4f8ff;
+  padding: 50px 20px;
+  margin-top: 50px;
+}
+
+.contact h2 {
+  color: #0d47a1;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Contact Form */
+.contact form {
+  max-width: 420px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.contact textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Send Button */
+.contact button {
+  width: 100%;
+  background: #1565c0;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 15px rgba(21, 101, 192, 0.25);
+}
+
+.contact button:hover {
+  background: #0d47a1;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(13, 71, 161, 0.3);
+}
